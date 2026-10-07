@@ -1,12 +1,12 @@
 public class Main{
     public static void main(String[] args){
-        int number=0;
-        if(number>0){
-            System.out.println("Positive");
-        } else if(number==0){
-            System.out.println("zero");
-        } else{
-            System.out.println("Negative");
+        int mark=90;
+        if (mark >= 80){
+            System.out.println("Excellent");
+        } else if (mark>=50){
+            System.out.println("Pass");
+        } else {
+            System.out.println("Below 50");
         }
     }
 }
