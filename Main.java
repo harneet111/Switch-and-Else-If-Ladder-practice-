@@ -1,12 +1,12 @@
 public class Main{
     public static void main(String[] args){
-        double temperature= 15.5;
-        if (temperature < 10){
-            System.out.println("Cold");
-        } else if (temperature <20){
-            System.out.println("Cool");
-        } else{
-            System.out.println("Warm");
+        int option = 2;
+        if(option ==1){
+            System.out.println("Play");
+        } else if (option==2){
+            System.out.println("Help");
+        } else {
+            System.out.println("Invalid option");
         }
     }
 }
