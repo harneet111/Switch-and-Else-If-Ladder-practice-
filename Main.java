@@ -1,12 +1,16 @@
 public class Main{
     public static void main(String[] args){
-        int option = 2;
-        if(option ==1){
+        int option = 3;
+        switch (option){
+            case 1:
             System.out.println("Play");
-        } else if (option==2){
-            System.out.println("Help");
-        } else {
-            System.out.println("Invalid option");
+            break;
+            case 2:
+                System.out.println("Help");
+                break;
+            default:
+                System.out.println("Invalid option");
+                break;
         }
     }
 }
