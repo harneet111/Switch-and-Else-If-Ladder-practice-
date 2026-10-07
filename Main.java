@@ -1,12 +1,12 @@
 public class Main{
     public static void main(String[] args){
-        int mark=90;
-        if (mark >= 80){
-            System.out.println("Excellent");
-        } else if (mark>=50){
-            System.out.println("Pass");
-        } else {
-            System.out.println("Below 50");
+        double temperature= 15.5;
+        if (temperature < 10){
+            System.out.println("Cold");
+        } else if (temperature <20){
+            System.out.println("Cool");
+        } else{
+            System.out.println("Warm");
         }
     }
 }
